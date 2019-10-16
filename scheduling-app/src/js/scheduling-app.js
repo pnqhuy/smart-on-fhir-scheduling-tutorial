@@ -186,7 +186,6 @@ function renderAppointment(appointmentLocation) {
   $('#appointment-holder-row').show();
 }
 
-/*
 $('#patient-search-form').on('submit', function(e) {
   e.preventDefault();
   patientSearch();
@@ -358,4 +357,3 @@ function clearPatientUI() {
   $('#patients').html('');
   $('#patients-holder-row').hide();
 }
-*/
