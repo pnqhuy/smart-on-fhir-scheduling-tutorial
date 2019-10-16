@@ -70,7 +70,7 @@ function slotHTML(id, type, start, end) {
              "<a href='javascript:void(0);' class='card-link' onclick='appointmentCreate(\"" +
                slotReference + "\", \"Patient/4704007\");'>Book</a>" +
            '</div>' +
-         '</div>';
+         '</div>'; 
 }
 
 function renderSlots(slotsHTML) {
