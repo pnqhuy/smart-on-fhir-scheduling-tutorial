@@ -92,7 +92,6 @@ function clearUI() {
 }
 ;
 
-/*
 $('#clear-appointment').on('click', function(e) {
   $('#appointment').html('');
   $('#appointment-holder-row').hide();
@@ -149,6 +148,7 @@ function renderAppointment(appointmentLocation) {
   $('#appointment-holder-row').show();
 }
 
+/*
 $('#patient-search-form').on('submit', function(e) {
   e.preventDefault();
   patientSearch();
